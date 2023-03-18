@@ -1,0 +1,121 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos específicos */
+  header {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: #008080;
+    color: #fff;
+    text-align: center;
+    padding:
+    10px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para a seção "Fundação da cidade" */
+  #fundacao-da-cidade {
+    background-color: #f2f2f2;
+  }
+  
+  #fundacao-da-cidade h2 {
+    color: #008080;
+  }
+  
+  #fundacao-da-cidade p {
+    font-size: 16px;
+  }
+  
+  /* Estilos para a seção "Pontos turísticos" */
+  #pontos-turisticos {
+    background-color: #fff;
+  }
+  
+  #pontos-turisticos h2 {
+    color: #008080;
+  }
+  
+  #pontos-turisticos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #pontos-turisticos li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #pontos-turisticos img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #pontos-turisticos h3 {
+    margin: 10px;
+    font-size: 20px;
+    color: #008080;
+  }
+  
+  #pontos-turisticos p {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+    
